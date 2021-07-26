@@ -1,0 +1,10 @@
+body,html {
+    height: 100%;
+}
+.my-card{
+    padding: 10px;
+    border: 2px solid rgb(68, 68, 68);
+}
+.my-card p {
+    margin: 0;
+}
