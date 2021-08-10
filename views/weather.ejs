@@ -10,19 +10,18 @@
     <title>Weather App</title>
 </head>
 <body>
-    <div class="container">
+
+    <div class="container content">
         <div class="row text-center">
             <div class="col-12">
                 <h1><%= city %></h1> 
                 <h1><%= weather %></h1>
                 <img src= <%= iconURL %> alt="weather icon">
-                 <p>Temp: <%= temp %> °C</p>
+                 <p>Temperature: <%= temp %> °C</p>
                 <button class="btn btn-primary" href="/" onclick="window.history.back()">Go back</button>
             </div>
             
         </div>
-    </div>
-    
-    
+    </div> 
 </body>
 </html>

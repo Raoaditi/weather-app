@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <title>Weather App</title>
 </head>
-<body class="text-center">
+<body class="text-center bg-blue">
     <div class="container">
     <!-- <h1 class = "pt-3">Welcome to the awesome weather app!</h1> 
     <p>Here you can get basic weather info for which ever city you wish. </p>
@@ -20,12 +20,13 @@
             <input class = "form-control" type="text" name="cityName" placeholder="Enter City Name"><br>
             <button class = "btn btn-primary" type="submit">Go !</button>
         </form> -->
+    <img class="mb-4" src="images/sun.png" alt="" width="150" height="150">
+    <h1 class="h3 mb-3 my-heading">Welcome to the awesome weather app!</h1>    
 
-<form class="form-signin" action = "/" method = "post">
-        <img class="mb-4" src="images/sun.png" alt="" width="150" height="150">
-        <h1 class="h3 mb-3 font-weight-normal">Welcome to the awesome weather app!</h1>
-        <input type="text" name="cityName" class="form-control top" placeholder="Enter City" required>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Go !</button>
+    <form class="form-signin" action = "/" method = "post">
+        
+        <input type="text" name="cityName" class="form-control top text-center" placeholder="Enter City" required>
+        <button class="btn btn-lg btn-warning btn-block bottom" type="submit">Go !</button>
         <p class="mt-5 mb-3 text-muted">&copy; 2021</p>
       </form>
 
