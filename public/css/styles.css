@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 html,
 body {
   height: 100%;
@@ -52,15 +51,3 @@ body {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
-=======
-body,html {
-    height: 100%;
-}
-.my-card{
-    padding: 10px;
-    border: 2px solid rgb(68, 68, 68);
-}
-.my-card p {
-    margin: 0;
-}
->>>>>>> 3ebca078fb39a5d207f470a817591dfd43ab093a

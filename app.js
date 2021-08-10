@@ -5,12 +5,8 @@ const https = require('https');
 const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-<<<<<<< HEAD
-app.use(express.static('public'));
-=======
 app.use(express.static(__dirname + '/public'));
 app.set('view engine', 'ejs');
->>>>>>> 3ebca078fb39a5d207f470a817591dfd43ab093a
 
 app.get('/', (req, res) => {
     res.render('index');
