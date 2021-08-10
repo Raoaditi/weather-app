@@ -9,16 +9,16 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <title>Weather App</title>
 </head>
-<body>
+<body class="text-center bg-blue" >
 
     <div class="container content">
         <div class="row text-center">
             <div class="col-12">
-                <h1><%= city %></h1> 
-                <h1><%= weather %></h1>
+                <h1 class="mb-2 my-slantfont"><%= city %></h1> 
+                <h5 class ="text-muted my-simplefont"><%= weather %></h5>
                 <img src= <%= iconURL %> alt="weather icon">
-                 <p>Temperature: <%= temp %> °C</p>
-                <button class="btn btn-primary" href="/" onclick="window.history.back()">Go back</button>
+                 <h1 class="mb-2 my-slantfont text-white"><%= temp %>°C</h1>
+                <button class="btn btn-warning text-white my-simplefont" href="/" onclick="window.history.back()">Go back</button>
             </div>
             
         </div>
