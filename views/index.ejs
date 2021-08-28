@@ -4,42 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/sign-in/">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- <link rel="icon" href="" type="image/x-icon"> -->
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Weather App</title>
 </head>
-<body>
-    <div class="container my-card d-flex h-100 justify-content-center">
-        <div class="row justify-content-center align-self-center">
-            <div class="col-md-12">
-                <h1 class = "pt-3">Welcome to the awesome weather app!</h1> 
-                <p>Here you can get basic weather info for which ever city you wish. </p><br />
-            </div>
-            <div class="col-md-12">
-                <form action="/" method="post">
-                    <label for="cityName">Enter City: </label><br />
-                    <input class = "form-control" type="text" name="cityName" placeholder="Enter City Name"><br>
-                    <button class = "btn btn-primary" type="submit" >Go !</button>
-                </form>
-            </div>
+<body class="text-center bg-blue">
+    <div class="container">
+        <div class="col-md-6 col-sm-12 my-card">
+            <!-- <i class="fas fa-cloud mt-5 mb-3" style="color: rgb(51, 51, 51)"></i> -->
+            <h1 class="h3 mt-5 mb-3 my-heading">Weather App </h1>    
+            <p class = "my-para">Enter the city you want to check weather for..</p>
+    
+            <form class="form-signin" action = "/" method = "post">
+                
+                <input type="text" name="cityName" class="form-control text-center my-input mb-2" placeholder="Enter City" required>
+                <button class="btn btn-primary btn-block my-btn" type="submit">Go !</button>
+                <p class="mt-5 mb-3 text-muted">&copy; 2021</p>
+            </form>
         </div>
     </div>
-
-
-
-        <!-- <div class="container d-flex h-100">
-            <div class="row align-self-center w-100">
-                <div class="col-6 mx-auto">
-                    <div class="jumbotron">
-                        <h1 class="display-4 text-truncate">Jumbotron</h1>
-                        <p class="lead">This is a simple hero unit.</p>
-                        <p class="lead">
-                            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div> -->
+    
 </body>
 </html>

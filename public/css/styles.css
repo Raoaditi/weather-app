@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@600&display=swap');
+
 body {
   margin: 0;
   padding: 0;
@@ -13,17 +16,47 @@ body {
   align-items: center;
   -webkit-box-pack: center;
   justify-content: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background: url("../images/index.jpg")
 }
 .bg-blue{
-  background: linear-gradient(0deg, rgba(99,199,219,1) 0%, rgba(255,255,255,1) 100%);
+  background: url("../images/index.jpg");
 }
-
+input.my-input {
+  background: #cecece30;
+  /* border: 2px solid black; */
+  border-bottom: 2px solid #8e8e8e;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0px;
+}
+button.my-btn{
+  border-radius: 0;
+  border: none;
+  background: rgba(255,255,255,0.25);
+  backdrop-filter: blur(5px);
+  border-radius: 4px;
+  border: 1px solid rgba(255,255,255,0.5);
+  color: #333;
+  box-shadow: 2px 4px 10px rgb(0 0 0 / 5%);
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 12px !important;
+}
 .my-heading{
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Merriweather Sans', sans-serif;
   max-width: 600px;
   margin: auto;
+  font-weight: 600;
 }
-
+.my-para{
+  font-family: 'Merriweather Sans', sans-serif;
+  font-style: italic;
+  font-weight: 300;
+}
 .form-signin {
   width: 100%;
   max-width: 330px;
@@ -43,12 +76,46 @@ body {
 .form-signin .form-control:focus {
   z-index: 2;
 }
-.top {
-  margin-bottom: -1px;
-  border-radius: 0.25em 0.25em 0 0 !important;
-}
-.bottom {
-  margin-bottom: 10px;
-  border-radius: 0 0 0.25em 0.25em !important;
+
+
+.my-card {
+  margin: 0 auto;
+  background: rgba(255,255,255,0.25);
+  backdrop-filter: blur(5px);
+  border-radius: 8px;
+  border: 1px solid rgba(255,255,255,0.5);
+  box-shadow: 2px 4px 10px rgb(0 0 0 / 10%);
 }
 
+
+
+
+
+
+
+
+
+
+/* WEATHER SWITCHING IMAGES */
+
+.Clouds{
+  background: url("../images/few-clouds.jpg");
+}
+.Rain{
+  background: url("../images/rain.jpg");
+}
+.Thunderstorm{
+  background: url("../images/thunderstrom.jpg");
+}
+.Snow{
+  background: url("../images/snow.jpg");
+}
+.Mist{
+  background: url("../images/mist.jpg");
+}
+.Clear{
+  background: url("../images/clear.jpg");
+}
+.Haze{
+  background: url("../images/haze.jpg");
+}
