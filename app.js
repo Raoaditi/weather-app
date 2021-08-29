@@ -25,6 +25,7 @@ app.post('/', (req, res) => {
     https.get(url, (response => {
         response.on('data', (d) => {
             const myData = JSON.parse(d);
+            // console.log(myData);
             if(myData.cod !== '404'){
                 const weather = capitalizeFirstLetter(myData.weather[0].description);
                 const icon = myData.weather[0].icon;

@@ -93,10 +93,11 @@ button.my-btn{
   background: url("../images/few-clouds.jpg");
 }
 .Rain{
-  background: url("../images/rain.jpg");
+  background: url("../images/rainnn.jpg");
+  color: #fff;
 }
 .Thunderstorm{
-  background: url("../images/thunderstrom.jpg");
+  background: url("../images/error.jpg");
 }
 .Snow{
   background: url("../images/snow.jpg");
